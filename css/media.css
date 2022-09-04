@@ -1,0 +1,245 @@
+@media (max-width: 1400px) {
+    .header {
+        padding-bottom: 450px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .music-albums, .extended-plays, .singles {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 1200px) {
+    .enjoyer-heading, .top5-enjoyer-heading {
+        font-size: 70px;
+    }
+
+    .music-albums div, .extended-plays div, .singles div {
+        padding: 10px;
+        padding-bottom: 5px;
+    }
+
+    .music-albums-title, .extended-plays-title, .singles-title {
+        font-size: 18px;
+        flex-wrap: nowrap;
+    }
+
+    .header {
+        padding-bottom: 250px;
+    }
+
+    .enjoyer-category::before {
+        background-color: #fbd784;
+    }
+    .enjoyer-category {
+        color: #fbd784;
+    }
+
+    .main-article-text {
+        padding-left: 50px;
+        max-width: 50%;
+    }
+
+    .main-article-text::before {
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+    }
+
+    .main-article-img {
+        width: 45%;
+    }
+
+    .enjoyer-category::before {
+        width: 42px;
+    }
+    .enjoyer-category {
+        font-style: 16px;
+        padding-left: 62px;
+    }
+    .main-article-subtitle {
+        font-size: 17px;
+    }
+    .main-article-title {
+        font-size: 34px;
+    }
+
+    .main-article-text p {
+        font-size: 17px;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .footer-nav + .footer-nav {
+        margin-left: 100px;
+    }
+
+    .music-albums, .extended-plays, .singles {
+        grid-template-columns: repeat(3, 250px); 
+    }
+
+    .music-albums-title, .music-albums-desc, .extended-plays-title, .extended-plays-desc, .singles-title, .singles-desc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        padding-bottom: 300px;
+    }
+    
+    .enjoyer-heading, .top5-enjoyer-heading {
+        font-size: 60px;
+    }
+
+    .top5-table {
+        width: 60%;
+    }
+}
+
+@media (max-width: 920px) {
+    .footer-row {
+        flex-direction: column-reverse;
+    }
+    .footer-nav-wrapper {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav, .store {
+        display: none;
+    }
+
+    .header {
+        padding-bottom: 200px;
+    }
+
+    .nav-wrapper {
+        margin-bottom: 90px;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+    }
+    
+    .enjoyer-heading, .top5-enjoyer-heading {
+        font-size: 48px;
+    }
+
+    .enjoyer-category::before {
+        width: 42px;
+    }
+    .enjoyer-category {
+        font-style: 14px;
+        padding-left: 62px;
+    }
+    .main-article-subtitle {
+        font-size: 14px;
+    }
+    .main-article-title {
+        font-size: 30px;
+    }
+
+    .main-article-text p {
+        font-size: 14px;
+    }
+
+    .music-albums, .extended-plays, .singles {
+        grid-template-columns: repeat(2, 250px); 
+    }
+}
+
+@media (max-width:720px) {
+
+    .main-article, .main-article:nth-child(even) {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+        align-items: flex-start;
+    }
+
+    .main-article-text {
+       max-width:100%;
+    }
+
+    .main-article-img {
+        max-width:100%;
+        width: 80%;
+        margin-bottom: 75px;
+    }
+
+    .enjoyer-heading, .top5-enjoyer-heading {
+        font-size: 48px;
+    }
+
+    .enjoyer-category::before {
+        width: 42px;
+    }
+    .enjoyer-category {
+        font-style: 16px;
+        padding-left: 62px;
+    }
+    .main-article-subtitle {
+        font-size: 17px;
+    }
+    .main-article-title {
+        font-size: 34px;
+    }
+
+    .main-article-text p {
+        font-size: 17px;
+    }
+
+    .top5-table {
+        width: 80%;
+    }
+    
+}
+
+@media (max-width:560px) {
+
+    .footer-nav-title {
+        font-size: 18px;
+    }
+
+    .social-media {
+        font-size: 16px;
+    }
+
+    .footer-copyright-desc, .footer-copyright-text {
+        font-size: 16px;
+    }
+
+    .footer-nav + .footer-nav {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .enjoyer-heading, .top5-enjoyer-heading {
+        font-size: 38px;
+    }
+
+    .enjoyer-category {
+        font-size: 16px;
+    }
+
+    .footer-nav-wrapper {
+        flex-direction: column;
+    }
+
+    .music-albums, .extended-plays, .singles {
+        grid-template-columns: repeat(1, 250px); 
+    }
+
+    .top5-table {
+        font-size: 18px;
+        width: 95%;
+    }
+}
